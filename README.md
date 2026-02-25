@@ -5,15 +5,15 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16-orange?style=for-the-badge&logo=tensorflow)
 ![Metal](https://img.shields.io/badge/Apple-Metal_GPU-black?style=for-the-badge&logo=apple)
 
-## 📌 Overview
+## Overview
 This project demonstrates the raw AI processing power of the **Apple M4 Chip**. It uses **TensorFlow Metal (PluggableDevice)** to offload neural network training tasks to the local GPU, showcasing hardware-accelerated Machine Learning without relying on cloud resources.
 
-## 💻 Hardware Specifications
+##  Hardware Specifications
 - **Device:** Mac Mini M4 (2026 Edition)
 - **Architecture:** ARM64 (Apple Silicon)
 - **Acceleration:** Metal Performance Shaders (MPS)
 
-## 📊 Benchmark Results
+## Benchmark Results
 Tested using the **MNIST Dataset** (60,000 images of handwritten digits).
 
 | Metric | Performance |
@@ -21,18 +21,18 @@ Tested using the **MNIST Dataset** (60,000 images of handwritten digits).
 | **Model Type** | Multi-Layer Perceptron (MLP) |
 | **Epochs** | 5 |
 | **Batch Size** | 64 |
-| **Total Training Time** | **18.67 Seconds** 🔥 |
+| **Total Training Time** | **18.67 Seconds** |
 | **Device Load** | High-Intensity Metal GPU Acceleration |
 
 
 
-## 🛠️ Tech Stack & Skills Demonstrated
+## Tech Stack & Skills Demonstrated
 - **Frameworks:** TensorFlow (MacOS & Metal plugins)
 - **Performance Engineering:** GPU-accelerated training workflows.
 - **Environment Management:** Virtual Environment (venv) isolation for ARM64 architecture.
 - **Version Control:** Professional Git workflow (Atomic commits, Token-based authentication).
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 1. **Clone the Repo:**
    ```bash
    git clone [https://github.com/Sherief01/M4-Metal-AI-Benchmarker.git](https://github.com/Sherief01/M4-Metal-AI-Benchmarker.git)
