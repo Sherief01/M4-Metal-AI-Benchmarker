@@ -1,0 +1,1 @@
+M4 GPU Training Time (5 Epochs): 18.67s
